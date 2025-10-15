@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eLearning Platform - Course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>eLearning Platform</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="progress.html">My Progress</a>
+        </nav>
+    </header>
+    <main>
+        <section id="course-detail">
+            <h2 id="course-title">Course Title</h2>
+            <div id="video-container">
+                <iframe id="video-iframe" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div id="progress-container">
+                <h3>Progress</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p id="progress-text">0% Complete</p>
+                <button id="mark-complete">Mark as Complete</button>
+            </div>
+            <div id="lessons">
+                <h3>Lessons</h3>
+                <ul id="lesson-list">
+                    <!-- Lessons will be populated by JS -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
